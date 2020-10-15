@@ -1,0 +1,5 @@
+public class GamblerV2 {
+    public static void main(String[] args) {
+        
+    }
+}
