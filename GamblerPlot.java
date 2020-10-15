@@ -12,7 +12,7 @@
   
 
   Sample Execution:
-    % java Gambler 10 20 1
+    % java GamblerPlot 10 20 1
         Original Stake: 
         ----------------
         ***********

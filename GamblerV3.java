@@ -15,12 +15,12 @@
         Percent of games won = 100.0
         Avg # bets           = 10.1
 
-    % java Gambler 50 51 100 .1
+    % java GamblerV3 50 51 100 .1
         11 wins of 100
         Percent of games won = 11.0
         Avg # bets = 53.83
   
-    % java Gambler 50 100 1000 .25
+    % java GamblerV3 50 100 1000 .25
         0 wins of 1000
         Percent of games won = 0.0
         Avg # bets = 100.618      

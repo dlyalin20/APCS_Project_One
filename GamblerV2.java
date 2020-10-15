@@ -14,17 +14,17 @@
   GamblerV2 is Gambler rewritten using two while loops. 
 
   Sample Execution:
-    % java Gambler 50 250 1000
+    % java GamblerV2 50 250 1000
         178 wins of 1000
         Percent of games won = 17.8
         Avg # bets = 10010.79
 
-    % java Gambler 50 150 1000
+    % java GamblerV2 50 150 1000
         337 wins of 1000
         Percent of games won = 33.7   
         Avg # bets = 4863.95
   
-    % java Gambler 50 100 1000
+    % java GamblerV2 50 100 1000
         503 wins of 1000
         Percent of games won = 50.3
         Avg # bets = 2464.59
