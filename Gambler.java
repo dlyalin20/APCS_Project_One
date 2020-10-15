@@ -45,7 +45,6 @@
         $1000 1000 times several times, the average number of bets approached 1300, 
         but ranged on individual runs from 500 to 1500.
 */  
-
 public class Gambler { 
 
     public static void main(String[] args) {
