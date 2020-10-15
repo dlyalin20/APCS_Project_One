@@ -1,5 +1,5 @@
 /*
-    Group Members: Daniel Lyalin
+    Group Members: Daniel Lyalin; Isabella Ho; Justin Li
     
     Compilation: javac RandomWalker.java
     Execution: java RandomWalker N
@@ -49,13 +49,13 @@
             (5,0)
             Squared Distance: 25
 
-    Conclusions/Hypotheses: It can be observed that as N increases, so does the 
-    squared distance of the walker from the origin. For example, the distance was 5
-    after 10 steps, and 25 after 20 steps. Other than that, no conclusions can be 
-    drawn without running more test runs and averaging them. For that, refer to
-    RandomWalkers.java.
+    Conclusions/Hypotheses: 
+        It can be observed that as N increases, so does the 
+        squared distance of the walker from the origin. For example, the distance was 5
+        after 10 steps, and 25 after 20 steps. Other than that, no conclusions can be 
+        drawn without running more test runs and averaging them. For that, refer to
+        RandomWalkers.java.
 */
-
 public class RandomWalker {
     public static void main(String[] args) {
         int x = 0;
