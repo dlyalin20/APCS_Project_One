@@ -5,11 +5,14 @@
     Execution: java RandomWalker N
 
     Problem Statement:
-        Write a program RandomWalker.java that takes an integer command-line
-        argument N and simulates the motion of a random walker for N steps.
-	    After each step, print the location of the random walker, treating
-	    the lamp post as the origin (0, 0). Also, print the square of the
-        final distance from the origin.
+        A drunkard begins walking aimlessly, starting at a lamp post. At  each time step, 
+        the drunkard forgets where he or she is, and takes one step at random, either 
+        north, east, south, or west, with probability 25%. How far will the drunkard be 
+        from the lamp post after N steps?
+        Write a program RandomWalker.java that takes an integer command-line argument N 
+        and simulates the motion of a random walker for N steps. After each step, print 
+        the location of the random walker, treating the lamp post as the origin (0, 0). 
+        Also,print the square of the final distance from the origin.
         
     Sample Execution:
         % java RandomWalker 10

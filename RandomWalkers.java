@@ -5,10 +5,11 @@
     Execution: java RandomWalkers N T
 
     Problem Statement:
-        Write a program RandomWalkers.java that takes two integer command-line
-        arguments N and T. In each of T independent experiments, simulate a
-	    random walk of N steps and compute the squared distance. Output the
-        mean squared distance (the average of the T squared distances).
+        Write a program RandomWalkers.java that takes two integer command-line 
+        arguments N and T. In each of T independent experiments, simulate a random 
+        walk of N steps and compute the squared distance. Output the mean squared 
+        distance (the average of the T squared distances).
+        Reference the documentation of RandomWalker.java for more details.
         
     Execution:
         % java RandomWalkers 100 100000         
