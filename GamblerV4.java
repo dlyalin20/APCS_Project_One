@@ -49,6 +49,8 @@ public class GamblerV4 {
         double remainder = 0;
         double endedEarly = 0;
 
+        double total_cash = 0;
+
         // repeat trials times
         for (int t = 0; t < trials; t++) {
 
@@ -68,12 +70,16 @@ public class GamblerV4 {
                 }
             }
             if (cash == goal) wins++;                // did gambler go achieve desired goal?
+
+            total_cash += cash;
         }
 
         // print results
         System.out.println(wins + " wins of " + trials);
         System.out.println("Avg # bets           = " + 1.0 * bets / trials);
         System.out.println("Percent of games won = " + 100.0 * wins / trials);
+
+        System.out.println("Average Amount of Money Remaining When Game Ended: " + total_cash / trials);
 
         if (endedEarly == 0) {
             System.out.println("Average Amount of Cash Remaining For Games That Ended Early: " + 0);
