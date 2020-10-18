@@ -1,8 +1,8 @@
 /*
  Group Members: Justin Li; Daniel Lyalin; Isabella Ho
 
- Compilation: javac Gambler.java
- Execution: java Gambler stake goal N
+ Compilation: javac GamblerPlot.java
+ Execution: java GamblerPlot stake goal N
 
  Problem Statement:
    Write a program GamblerPlot that traces a gambler's ruin simulation by printing a 

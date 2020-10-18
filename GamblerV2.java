@@ -1,8 +1,8 @@
 /*
  Group Members: Justin Li; Daniel Lyalin; Isabella Ho
 
- Compilation: javac Gambler.java
- Execution: java Gambler stake goal N
+ Compilation: javac GamblerV2.java
+ Execution: java GamblerV2 stake goal N
 
  Problem Statement:
   Simulates a gambler who starts with $stake and places fair $1 bets until she goes 

@@ -1,8 +1,8 @@
 /*
  Group Members: Justin Li; Daniel Lyalin; Isabella Ho
 
- Compilation: javac Gambler.java
- Execution: java Gambler stake goal N
+ Compilation: javac GamblerV4.java
+ Execution: java GamblerV4 stake goal N
 
  Problem Statement:
     Modify Gambler to take an extra command-line argument that specifies

@@ -44,6 +44,25 @@
         After having run the Gambler simulation with a stake of $1 and a goal of 
         $1000 1000 times several times, the average number of bets approached 1300, 
         but ranged on individual runs from 500 to 1500.
+    3. Use empirical results from the simulation, determine the probability of 
+       success in terms of the stake and the goal.
+        Considering that the probability of getting to $2500 after starting with 
+        $500 was .2 and the probability of getting to $1000 after starting with $1 
+        was .1, it would appear that the probability of success is roughly equal to 
+        the ratio of the stake to the goal, or of the stake divided by the goal. For 
+        example, if one were to stake $2 with a goal of $4, then the mathematically 
+        expected probability of success would be 50%, or 1/2. Running the simulation 
+        100 times, the chances of success averaged to 51%, which is almost what our 
+        ratio model predicts.
+
+  4. Empirically determine the expected number of bets in terms of the stake and the 
+     goal.
+      Considering that the number of bets made for the $500/$2500 simulation was 
+      around one million and the number of bets made for the $1/$1000 simulation was 
+      around 1300, it would appear as though the number of bets is approximately 
+      equal to and approaches the stake times the goal. For example, a stake of $20 
+      with a goal of $400 would have an average of 8000 bets, which is around what 
+      the model predicts.
 */  
 public class Gambler { 
 
